@@ -4,8 +4,13 @@ require 'directors_database'
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
-  pp nds 
+  pp nds
 end
 
 def print_first_directors_movie_titles
+  directors_database.each do
+    directors_database[:movie][:titles].each do
+      puts [:titles]
+    end
+  end 
 end
