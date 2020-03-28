@@ -9,6 +9,6 @@ end
 
 def print_first_directors_movie_titles
     directors_database[:movies].each do
-      puts [:title]
+      puts directors_database[:movies][:title]
     end
 end
